@@ -1,0 +1,115 @@
+.track-page {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 30px;
+    background: linear-gradient(145deg, #ffffff, #f0f5f9);
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 -1px 1px rgba(255, 255, 255, 0.5);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .track-page h2 {
+    font-size: 2.5rem;
+    color: #212f3d;
+    margin-bottom: 25px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .track-page .form-container {
+    margin: 30px auto;
+  }
+  
+  .track-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .track-page input {
+    padding: 12px;
+    font-size: 1rem;
+    width: 70%;
+    border: 1px solid #ccd6dd;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .track-page button {
+    background: linear-gradient(90deg, #32b5ff, #0078d7);
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .track-page button:hover {
+    background: linear-gradient(90deg, #0078d7, #32b5ff);
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(50, 181, 255, 0.3);
+  }
+  
+  .track-page .product-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .track-page .product-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #dfe6eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .track-page .product-item:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .track-page .product-item img {
+    max-width: 80px;
+    border-radius: 8px;
+  }
+  
+  .track-page .product-item .product-details {
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .track-page .product-item .product-details h3 {
+    font-size: 1.2rem;
+    color: #212f3d;
+    margin: 0;
+  }
+  
+  .track-page .product-item .product-details p {
+    font-size: 1rem;
+    color: #444;
+    margin: 5px 0;
+  }
+  
+  .track-page .product-item a {
+    color: #0078d7;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .track-page .product-item a:hover {
+    color: #0056a3;
+  }
+  

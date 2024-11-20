@@ -1,0 +1,49 @@
+.register-page {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 30px;
+  background: linear-gradient(145deg, #ffffff, #f3f9f6);
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 -1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.register-page h2 {
+  font-size: 2.5rem;
+  color: #212f3d;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #00d85a, #009f46);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccd6dd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.register-page button {
+  background: linear-gradient(90deg, #28a745, #218838);
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.register-page button:hover {
+  background: linear-gradient(90deg, #218838, #28a745);
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(40, 167, 69, 0.3);
+}

@@ -1,0 +1,40 @@
+.team-page {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background: linear-gradient(145deg, #ffffff, #f4f9ff);
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.team-page h2 {
+  font-size: 2rem;
+  color: #0078d7;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #32b5ff, #0078d7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.team-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-page ul li {
+  font-size: 1.2rem;
+  color: #555;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  
+} 
+
+
